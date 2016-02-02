@@ -1,8 +1,16 @@
 # jIconFont - Entypo
 
-Font source: [Entypo pictograms by Daniel Bruce — www.entypo.com](http://www.entypo.com/)
+### Links
 
-#LICENSE
-jIconFont-FontAwesome is released under the MIT license. See LICENSE file for details.
+* [Entypo pictograms by Daniel Bruce — www.entypo.com](http://www.entypo.com/)
+* [GitHub Repository](https://github.com/danielbruce/entypo)
+
+## LICENSE
+jIconFont is distributed under the terms of the [MIT license](http://opensource.org/licenses/mit-license.html). See LICENSE file for details.
+
+
+
+
+
 
 

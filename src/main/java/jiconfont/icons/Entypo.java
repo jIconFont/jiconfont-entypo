@@ -1,6 +1,7 @@
 package jiconfont.icons;
 
 import jiconfont.IconCode;
+import jiconfont.IconFont;
 
 import java.io.InputStream;
 
@@ -261,8 +262,17 @@ public enum Entypo implements IconCode {
         return "Entypo";
     }
 
-    @Override
-    public InputStream getFontInputStream() {
-        return Entypo.class.getResourceAsStream("/fonts/entypo.ttf");
+    public static IconFont getIconFont() {
+        return new IconFont() {
+            @Override
+            public String getFontFamily() {
+                return "Entypo";
+            }
+
+            @Override
+            public InputStream getFontInputStream() {
+                return Entypo.class.getResourceAsStream("/fonts/entypo.ttf");
+            }
+        };
     }
 }
